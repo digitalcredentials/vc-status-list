@@ -35,8 +35,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@digitalbazaar/bitstring": "^2.0.0",
     "@digitalbazaar/vc-status-list-context": "^3.0.1",
+    "@digitalcredentials/bitstring": "github:digitalcredentials/bitstring#rollup-build",
     "@digitalcredentials/vc": "^4.1.1",
     "credentials-context": "^2.0.0"
   },
@@ -68,7 +68,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/vc-status-list"
+    "url": "https://github.com/digitalcredentials/vc-status-list"
   },
   "keywords": [
     "vc",
@@ -78,15 +78,10 @@
     "StatusList2021",
     "VerifiableCredential"
   ],
-  "author": {
-    "name": "Digital Bazaar, Inc.",
-    "email": "support@digitalbazaar.com",
-    "url": "https://digitalbazaar.com/"
-  },
   "bugs": {
-    "url": "https://github.com/digitalbazaar/vc-status-list/issues"
+    "url": "https://github.com/digitalcredentials/vc-status-list/issues"
   },
-  "homepage": "https://github.com/digitalbazaar/vc-status-list",
+  "homepage": "https://github.com/digitalcredentials/vc-status-list",
   "engines": {
     "node": ">=14"
   },
