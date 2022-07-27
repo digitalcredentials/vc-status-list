@@ -12,7 +12,7 @@ import {
   slCredentialSuspension as SLCSuspension
 } from './mock-sl-credentials.js';
 import statusListCtx from '@digitalbazaar/vc-status-list-context';
-import {defaultDocumentLoader} from '@digitalbazaar/vc';
+import {defaultDocumentLoader} from '@digitalcredentials/vc';
 import {Ed25519Signature2020} from '@digitalbazaar/ed25519-signature-2020';
 import suiteCtx2020 from 'ed25519-signature-2020-context';
 
