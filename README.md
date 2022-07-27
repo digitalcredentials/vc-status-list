@@ -1,11 +1,11 @@
-# @digitalbazaar/vc-status-list
+# @digitalcredentials/vc-status-list
 
 [Verifiable Credential Status List 2021](https://github.com/w3c-ccg/vc-status-list-2021)
 
 ### Creating a StatusList2021Credential
 
 ```js
-const sl = require("@digitalbazaar/vc-status-list");
+const sl = require("@digitalcredentials/vc-status-list");
 const jsigs = require("jsonld-signatures");
 const {Ed25519KeyPair} = require("crypto-ld");
 const vc = require("vc-js");
