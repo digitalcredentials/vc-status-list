@@ -1,4 +1,4 @@
-# @digitalbazaar/vc-status-list ChangeLog
+# @digitalcredentials/vc-status-list ChangeLog
 
 ## 5.0.0 - 2022-06-16
 

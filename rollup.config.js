@@ -1,3 +1,4 @@
+import pkg from './package.json';
 export default [
   {
     input: './lib/index.js',
@@ -7,6 +8,7 @@ export default [
         format: 'cjs',
         preserveModules: true
       }
-    ]
+    ],
+    external: Object.keys(pkg.dependencies)
   }
 ];

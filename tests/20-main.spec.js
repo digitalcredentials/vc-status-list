@@ -5,7 +5,7 @@ import {
   createList, decodeList, createCredential, checkStatus, statusTypeMatches,
   assertStatusList2021Context, getCredentialStatus
 } from '../lib/index.js';
-import * as didKey from '@digitalbazaar/did-method-key';
+import * as didKey from '@digitalcredentials/did-method-key';
 import jsigs from 'jsonld-signatures';
 import {
   slCredentialRevocation as SLCRevocation,
@@ -13,7 +13,7 @@ import {
 } from './mock-sl-credentials.js';
 import statusListCtx from '@digitalbazaar/vc-status-list-context';
 import {defaultDocumentLoader} from '@digitalcredentials/vc';
-import {Ed25519Signature2020} from '@digitalbazaar/ed25519-signature-2020';
+import {Ed25519Signature2020} from '@digitalcredentials/ed25519-signature-2020';
 import suiteCtx2020 from 'ed25519-signature-2020-context';
 
 const {extendContextLoader} = jsigs;
