@@ -1,6 +1,6 @@
 {
   "name": "@digitalcredentials/vc-status-list",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Verifiable Credentials Status List",
   "license": "BSD-3-Clause",
   "type": "module",
