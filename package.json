@@ -4,6 +4,7 @@
   "description": "Verifiable Credentials Status List",
   "license": "BSD-3-Clause",
   "type": "module",
+  "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "files": [
     "dist",
