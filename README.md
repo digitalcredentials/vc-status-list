@@ -5,11 +5,13 @@
 ### Creating a StatusList2021Credential
 
 ```js
-const sl = require("@digitalcredentials/vc-status-list");
-const jsigs = require("jsonld-signatures");
-const {Ed25519KeyPair} = require("crypto-ld");
-const vc = require("vc-js");
-const documentLoader = require("./path-to/document-loader.js");
+const sl = require('@digitalcredentials/vc-status-list');
+const jsigs = require('@digitalcredentials/jsonld-signatures');
+const {Ed25519KeyPair} = require('@digitalcredentials/crypto-ld');
+const vc = require('@digitalcredentials/vc');
+const {securityLoader} = require('@digitalcredentials/security-document-loader');
+
+const documentLoader = securityLoader().build()
 
 const key = new Ed25519KeyPair({
   "id": "did:key:z6MknUVLM84Eo5mQswCqP7f6oNER84rmVKkCvypob8UtBC8K#z6MknUVLM84Eo5mQswCqP7f6oNER84rmVKkCvypob8UtBC8K",
