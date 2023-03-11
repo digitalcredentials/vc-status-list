@@ -1,6 +1,6 @@
 {
   "name": "@digitalcredentials/vc-status-list",
-  "version": "5.0.2",
+  "version": "7.0.0",
   "description": "Verifiable Credentials Status List",
   "license": "BSD-3-Clause",
   "type": "module",
@@ -45,7 +45,7 @@
     "eslint-config-digitalbazaar": "^3.0.0",
     "eslint-plugin-jsdoc": "^39.3.2",
     "eslint-plugin-unicorn": "^42.0.0",
-    "jsonld-signatures": "^10.0.0",
+    "jsonld-signatures": "^11.0.0",
     "karma": "^6.4.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^3.1.1",
@@ -81,7 +81,7 @@
   },
   "homepage": "https://github.com/digitalcredentials/vc-status-list",
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "c8": {
     "reporter": [
