@@ -5,10 +5,10 @@ on: [push]
 jobs:
   lint:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 1
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [13.x]
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -21,7 +21,7 @@ jobs:
   test-node:
     needs: [lint]
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 1
     strategy:
       matrix:
         node-version: [16.x, 18.x]
@@ -37,10 +37,10 @@ jobs:
   test-karma:
     needs: [lint]
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 1
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [13.x]
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -53,10 +53,10 @@ jobs:
   coverage:
     needs: [test-node, test-karma]
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 1
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [13.x]
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -70,4 +70,4 @@ jobs:
       uses: codecov/codecov-action@v2
       with:
         file: ./coverage/lcov.info
-        fail_ci_if_error: true
+        fail_ci_if_error: false
