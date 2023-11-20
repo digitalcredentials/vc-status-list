@@ -1,6 +1,6 @@
 {
   "name": "@digitalcredentials/vc-status-list",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "Verifiable Credentials Status List",
   "license": "BSD-3-Clause",
   "main": "./dist/index.js",
