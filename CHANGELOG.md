@@ -1,5 +1,11 @@
 # @digitalcredentials/vc-status-list ChangeLog
 
+## 7.1.1 - 2023-12-01
+
+### Fixed
+- Fix test execution by implementing pre-test and post-test scripts.
+- Improve rollup config script.
+
 ## 7.1.0 - 2023-11-20
 
 ### Added
