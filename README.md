@@ -1,7 +1,7 @@
 # Bitstring Status List v1.0 Library _(@digitalcredentials/vc-status-list)_
 
-[![Build status](https://img.shields.io/github/actions/workflow/status/digitalcredentials//main.yml?branch=main)](https://github.com/digitalcredentials//actions?query=workflow%3A%22Node.js+CI%22)
-[![NPM Version](https://img.shields.io/npm/v/@digitalcredentials/.svg)](https://npm.im/@digitalcredentials/)
+[![Build status](https://img.shields.io/github/actions/workflow/status/digitalcredentials/vc-status-list/main.yml?branch=main)](https://github.com/digitalcredentials/vc-status-list/actions?query=workflow%3A%22Node.js+CI%22)
+[![NPM Version](https://img.shields.io/npm/v/@digitalcredentials/vc-status-list.svg)](https://npm.im/@digitalcredentials/vc-status-list)
 
 > An isomorphic [Verifiable Credential Bitstring Status List v1.0](https://w3c.github.io/vc-bitstring-status-list/) library for Node, browsers and React Native.
 
