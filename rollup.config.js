@@ -5,21 +5,9 @@ export default [
     input: './lib/index.js',
     output: [
       {
-        file: 'dist/index.js',
+        dir: 'dist',
         format: 'cjs',
-        exports: 'auto'
-      }
-    ],
-    external: Object.keys(pkg.dependencies)
-  },
-  // ESM
-  {
-    input: './lib/index.js',
-    output: [
-      {
-        file: 'dist/esm/index.js',
-        format: 'esm',
-        exports: 'auto'
+        preserveModules: true
       }
     ],
     external: Object.keys(pkg.dependencies)
