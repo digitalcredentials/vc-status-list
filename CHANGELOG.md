@@ -1,6 +1,6 @@
 # @digitalcredentials/vc-status-list ChangeLog
 
-## 7.2.0 - 
+## 7.2.0 - 2023-12-07
 
 ### Changed
 - **BREAKING**: Set the `verifyMatchingIssuers` flag as `false` by default (was
