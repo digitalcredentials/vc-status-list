@@ -39,7 +39,7 @@
   "dependencies": {
     "@digitalbazaar/vc-status-list-context": "^3.0.1",
     "@digitalcredentials/bitstring": "^3.1.2",
-    "@digitalcredentials/vc": "^6.0.0",
+    "@digitalcredentials/vc": "^7.0.0",
     "credentials-context": "^2.0.0"
   },
   "devDependencies": {
