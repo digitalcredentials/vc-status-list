@@ -1,5 +1,10 @@
 # @digitalcredentials/vc-status-list ChangeLog
 
+## 8.0.0 - 2024-02-07
+
+### Changed
+- **BREAKING**: Update to `@digitalcredentials/vc`@7.0.0
+
 ## 7.2.0 - 2023-12-07
 
 ### Changed
