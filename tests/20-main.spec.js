@@ -6,7 +6,7 @@ import {
   assertStatusList2021Context, getCredentialStatus
 } from '../lib/index.js';
 import * as didKey from '@digitalcredentials/did-method-key';
-import jsigs from 'jsonld-signatures';
+import jsigs from '@digitalcredentials/jsonld-signatures';
 import {
   slCredentialRevocation as SLCRevocation,
   slCredentialSuspension as SLCSuspension
