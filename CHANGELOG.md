@@ -1,5 +1,13 @@
 # @digitalcredentials/vc-status-list ChangeLog
 
+## 9.0.0 - 2024-08-04
+
+### Added
+- Add support for VC 2.0.
+
+### Changed
+- **BREAKING**: Update to `@digitalcredentials/vc`@8.0.0
+
 ## 8.0.0 - 2024-02-07
 
 ### Changed
