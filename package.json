@@ -39,13 +39,13 @@
   "dependencies": {
     "@digitalbazaar/vc-status-list-context": "^3.0.1",
     "@digitalcredentials/bitstring": "^3.1.2",
-    "@digitalcredentials/vc": "digitalcredentials/vc#vc-2.0-time-props",
+    "@digitalcredentials/vc": "^8.0.0",
     "credentials-context": "^2.0.0"
   },
   "devDependencies": {
     "@digitalcredentials/did-method-key": "^2.0.3",
-    "@digitalcredentials/ed25519-signature-2020": "^4.0.0",
-    "@digitalcredentials/jsonld-signatures": "digitalcredentials/jsonld-signatures#add-derive-function-and-pass-proof-set",
+    "@digitalcredentials/ed25519-signature-2020": "^5.0.0",
+    "@digitalcredentials/jsonld-signatures": "^11.0.0",
     "@npmcli/package-json": "^5.0.0",
     "c8": "^7.11.3",
     "chai": "^4.3.6",
@@ -64,7 +64,7 @@
     "karma-webpack": "^5.0.0",
     "mocha": "^10.0.0",
     "mocha-lcov-reporter": "^1.3.0",
-    "rimraf": "^3.0.2",
+    "rimraf": "^6.0.1",
     "rollup": "^2.77.2",
     "webpack": "^5.73.0"
   },
